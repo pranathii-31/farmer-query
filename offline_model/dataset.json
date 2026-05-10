@@ -1,0 +1,328 @@
+[
+    {
+        "id": 1,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "pest",
+        "query_examples": [
+            "rice insects everywhere",
+            "small bugs in paddy",
+            "paddy drying in patches",
+            "brown insects jumping in water"
+        ],
+        "cause": "Brown Plant Hopper (BPH)",
+        "solution": "Drain field for 3-4 days. Spray Pymetrozine 50% WG at 120g per acre."
+    },
+    {
+        "id": 2,
+        "district": "mandya",
+        "crop": "sugarcane",
+        "category": "disease",
+        "query_examples": [
+            "red lines in cane",
+            "sugar crop smelling like alcohol",
+            "sugarcane leaves turning red"
+        ],
+        "cause": "Red Rot Fungal Infection",
+        "solution": "Burn infected clumps. Use Co-86032 resistant varieties. Avoid waterlogging."
+    },
+    {
+        "id": 3,
+        "district": "mandya",
+        "crop": "ragi",
+        "category": "deficiency",
+        "query_examples": [
+            "ragi leaves purple edges",
+            "slow growth ragi",
+            "stunted ragi plants"
+        ],
+        "cause": "Phosphorus Deficiency",
+        "solution": "Apply DAP or SSP fertilizer near the root zone."
+    },
+    {
+        "id": 4,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "disease",
+        "query_examples": [
+            "diamond spots on paddy leaves",
+            "neck rot rice",
+            "blast in paddy"
+        ],
+        "cause": "Blast Disease",
+        "solution": "Spray Tricyclazole 75% WP (0.6g/L). Avoid excessive Urea."
+    },
+    {
+        "id": 5,
+        "district": "mandya",
+        "crop": "tomato",
+        "category": "pest",
+        "query_examples": [
+            "white lines on tomato leaves",
+            "leaf miner maps",
+            "worm inside tomato leaf"
+        ],
+        "cause": "Leaf Miner",
+        "solution": "Remove infested leaves. Use Yellow Sticky Traps (10 per acre)."
+    },
+    {
+        "id": 6,
+        "district": "mandya",
+        "crop": "banana",
+        "category": "disease",
+        "query_examples": [
+            "banana leaves yellowing and drooping",
+            "panama wilt",
+            "banana stem black inside"
+        ],
+        "cause": "Fusarium Wilt (Panama)",
+        "solution": "Apply 1kg lime to soil. Drench roots with Carbendazim (2g/L)."
+    },
+    {
+        "id": 7,
+        "district": "mandya",
+        "crop": "maize",
+        "category": "pest",
+        "query_examples": [
+            "worm in corn cob",
+            "holes in maize leaves",
+            "fall armyworm"
+        ],
+        "cause": "Fall Armyworm (FAW)",
+        "solution": "Apply Emamectin Benzoate 5% SG. Fill whorls with sand/lime."
+    },
+    {
+        "id": 8,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "sowing",
+        "query_examples": [
+            "best time to plant rice in Mandya",
+            "Kharif rice dates",
+            "VC farm rice variety"
+        ],
+        "cause": "Seasonal Planning",
+        "solution": "Kharif: June-July. Rabi: Nov-Dec. Varieties: MTU-1010, IR-64."
+    },
+    {
+        "id": 9,
+        "district": "mandya",
+        "crop": "ragi",
+        "category": "fertilizer",
+        "query_examples": [
+            "urea for ragi",
+            "ragi fertilizer schedule",
+            "NPK for finger millet"
+        ],
+        "cause": "Nutrient Management",
+        "solution": "Apply 40:20:20 NPK kg/ha. Half Nitrogen at 30 days."
+    },
+    {
+        "id": 10,
+        "district": "mandya",
+        "crop": "sugarcane",
+        "category": "sowing",
+        "query_examples": [
+            "sugarcane row spacing",
+            "best variety for Mandya sugar factory",
+            "planting sets"
+        ],
+        "cause": "Agronomy Practices",
+        "solution": "4-foot spacing. Use 2-budded sets of Co-86032."
+    },
+    {
+        "id": 11,
+        "district": "mandya",
+        "crop": "groundnut",
+        "category": "fertilizer",
+        "query_examples": [
+            "gypsum for groundnut",
+            "peanut pod filling",
+            "groundnut fertilizer"
+        ],
+        "cause": "Pod Development",
+        "solution": "Apply 200kg Gypsum/acre at 45 days (flowering)."
+    },
+    {
+        "id": 12,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "irrigation",
+        "query_examples": [
+            "water level for paddy",
+            "KRS canal water schedule",
+            "rice irrigation"
+        ],
+        "cause": "Water Management",
+        "solution": "Maintain 2-5cm water. Watch KRS canal release dates."
+    },
+    {
+        "id": 13,
+        "district": "mandya",
+        "crop": "coconut",
+        "category": "fertilizer",
+        "query_examples": [
+            "coconut tree salt",
+            "fertilizer for old palms",
+            "boron for coconut"
+        ],
+        "cause": "Yield Improvement",
+        "solution": "1kg Urea, 1.5kg Superphosphate, 2.5kg MOP per palm."
+    },
+    {
+        "id": 14,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "nursery",
+        "query_examples": [
+            "paddy nursery prep",
+            "seedling care",
+            "seed treatment"
+        ],
+        "cause": "Seedling Health",
+        "solution": "Treat seeds with Carbendazim (2g/kg). 40kg seed per hectare nursery."
+    },
+    {
+        "id": 15,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "post_harvest",
+        "query_examples": [
+            "storing paddy safely",
+            "prevent grain rot",
+            "moisture for storage"
+        ],
+        "cause": "Storage Loss",
+        "solution": "Dry grains below 12% moisture. Use clean gunny bags."
+    },
+    {
+        "id": 16,
+        "district": "mandya",
+        "crop": "general",
+        "category": "weather",
+        "query_examples": [
+            "heavy rain in Mandya",
+            "flood protection for crops",
+            "cyclone warning"
+        ],
+        "cause": "Extreme Weather",
+        "solution": "Clear drainage channels. Postpone fertilizer/spraying."
+    },
+    {
+        "id": 17,
+        "district": "mandya",
+        "crop": "sugarcane",
+        "category": "post_harvest",
+        "query_examples": [
+            "when to harvest cane",
+            "brix meter reading",
+            "sugar maturity"
+        ],
+        "cause": "Maturity Assessment",
+        "solution": "Harvest at 18-20% Brix. Transport to factory within 24 hours."
+    },
+    {
+        "id": 18,
+        "district": "mandya",
+        "crop": "tomato",
+        "category": "market",
+        "query_examples": [
+            "tomato storage",
+            "grading tomatoes",
+            "Mandya APMC price"
+        ],
+        "cause": "Market Value",
+        "solution": "Grade by size. Use plastic crates for Mandya APMC market."
+    },
+    {
+        "id": 19,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "machinery",
+        "query_examples": [
+            "harvester rent Mandya",
+            "tractor for paddy",
+            "mechanized planting"
+        ],
+        "cause": "Labor Efficiency",
+        "solution": "Contact Mandya CHC for power tillers and harvesters."
+    },
+    {
+        "id": 20,
+        "district": "mandya",
+        "crop": "soil",
+        "category": "testing",
+        "query_examples": [
+            "soil test lab Mandya",
+            "VC farm soil test",
+            "how to test soil"
+        ],
+        "cause": "Soil Health",
+        "solution": "Submit 500g sample to VC Farm Lab, Mandya."
+    },
+    {
+        "id": 21,
+        "district": "mandya",
+        "crop": "cowpea",
+        "category": "pest",
+        "query_examples": [
+            "black insects on beans",
+            "aphids in cowpea",
+            "cowpea leaf curling"
+        ],
+        "cause": "Aphids",
+        "solution": "Spray Dimethoate 30 EC (1.7 ml/L). Avoid excessive watering."
+    },
+    {
+        "id": 22,
+        "district": "mandya",
+        "crop": "banana",
+        "category": "pest",
+        "query_examples": [
+            "banana stem borer",
+            "holes in banana trunk",
+            "jelly oozing from banana stem"
+        ],
+        "cause": "Stem Weevil",
+        "solution": "Clean pseudostem. Apply Chlorpyrifos (2.5 ml/L) around the stem."
+    },
+    {
+        "id": 23,
+        "district": "mandya",
+        "crop": "mango",
+        "category": "pest",
+        "query_examples": [
+            "mango hopper",
+            "sticky leaves on mango",
+            "black fungus on mango tree"
+        ],
+        "cause": "Mango Hopper",
+        "solution": "Spray Malathion 50 EC (2ml/L). Prune overcrowded branches."
+    },
+    {
+        "id": 24,
+        "district": "mandya",
+        "crop": "rice",
+        "category": "deficiency",
+        "query_examples": [
+            "rusty spots on rice leaves",
+            "zinc deficiency paddy",
+            "brownish rice leaves"
+        ],
+        "cause": "Zinc Deficiency",
+        "solution": "Apply 10kg Zinc Sulphate per acre during the last puddling."
+    },
+    {
+        "id": 25,
+        "district": "mandya",
+        "crop": "poultry",
+        "category": "disease",
+        "query_examples": [
+            "chickens dying suddenly",
+            "poultry disease Mandya",
+            "bird flu signs"
+        ],
+        "cause": "Ranikhet Disease / Bird Flu",
+        "solution": "Isolate sick birds. Contact Mandya Veterinary Hospital immediately. Maintain hygiene."
+    }
+]

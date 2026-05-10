@@ -1,0 +1,17 @@
+[
+  { "crop": "rice", "district": "mandya", "season": "kharif", "water_requirement": "high", "soil_type": ["clay", "loamy"], "profit_level": "medium", "suitable_conditions": ["canal access", "KRS water"] },
+  { "crop": "sugarcane", "district": "mandya", "season": "annual", "water_requirement": "very high", "soil_type": ["black", "alluvial"], "profit_level": "high", "suitable_conditions": ["Mandya factory proximity"] },
+  { "crop": "ragi", "district": "mandya", "season": "kharif", "water_requirement": "low", "soil_type": ["red sandy", "gravelly"], "profit_level": "medium", "suitable_conditions": ["rainfed", "dry zones"] },
+  { "crop": "tomato", "district": "mandya", "season": "rabi", "water_requirement": "medium", "soil_type": ["loamy"], "profit_level": "high", "suitable_conditions": ["well-drained soil"] },
+  { "crop": "banana", "district": "mandya", "season": "annual", "water_requirement": "high", "soil_type": ["rich loamy"], "profit_level": "high", "suitable_conditions": ["sheltered from wind"] },
+  { "crop": "maize", "district": "mandya", "season": "kharif", "water_requirement": "medium", "soil_type": ["deep loamy"], "profit_level": "medium", "suitable_conditions": ["good drainage"] },
+  { "crop": "coconut", "district": "mandya", "season": "perennial", "water_requirement": "medium", "soil_type": ["sandy loam"], "profit_level": "steady", "suitable_conditions": ["high water table"] },
+  { "crop": "cowpea", "district": "mandya", "season": "summer", "water_requirement": "low", "soil_type": ["sandy"], "profit_level": "low", "suitable_conditions": ["residual moisture"] },
+  { "crop": "groundnut", "district": "mandya", "season": "kharif", "water_requirement": "low", "soil_type": ["sandy loam"], "profit_level": "medium", "suitable_conditions": ["loose soil"] },
+  { "crop": "mulberry", "district": "mandya", "season": "perennial", "water_requirement": "medium", "soil_type": ["well-drained"], "profit_level": "high", "suitable_conditions": ["sericulture zones"] },
+  { "crop": "mango", "district": "mandya", "season": "annual", "water_requirement": "low", "soil_type": ["deep red soil"], "profit_level": "seasonal", "suitable_conditions": ["sloping land"] },
+  { "crop": "turmeric", "district": "mandya", "season": "annual", "water_requirement": "medium", "soil_type": ["sandy loam"], "profit_level": "high", "suitable_conditions": ["shaded areas"] },
+  { "crop": "sunflower", "district": "mandya", "season": "rabi", "water_requirement": "low", "soil_type": ["black soil"], "profit_level": "medium", "suitable_conditions": ["open sun"] },
+  { "crop": "chilli", "district": "mandya", "season": "kharif", "water_requirement": "medium", "soil_type": ["loamy"], "profit_level": "high", "suitable_conditions": ["pest-free nursery"] },
+  { "crop": "ginger", "district": "mandya", "season": "annual", "water_requirement": "high", "soil_type": ["humus rich"], "profit_level": "high", "suitable_conditions": ["heavy mulching"] }
+]

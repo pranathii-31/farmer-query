@@ -1,0 +1,17 @@
+[
+  { "crop": "rice", "symptoms": ["yellow leaves", "stunted"], "possible_issue": "Nitrogen deficiency", "farmer_terms": ["haladi ele", "paddy pale"] },
+  { "crop": "sugarcane", "symptoms": ["red lines", "vinegar smell"], "possible_issue": "Red Rot", "farmer_terms": ["kanda kole", "sugar rot"] },
+  { "crop": "rice", "symptoms": ["diamond spots", "neck black"], "possible_issue": "Blast", "farmer_terms": ["paddy blast", "neck rot"] },
+  { "crop": "maize", "symptoms": ["gunshot holes", "worm in whorl"], "possible_issue": "Fall Armyworm", "farmer_terms": ["maize worm", "jola hula"] },
+  { "crop": "tomato", "symptoms": ["leaf maps", "white lines"], "possible_issue": "Leaf Miner", "farmer_terms": ["ele gere", "white map"] },
+  { "crop": "ragi", "symptoms": ["purple leaf edges"], "possible_issue": "Phosphorus deficiency", "farmer_terms": ["purple ragi", "weak millet"] },
+  { "crop": "coconut", "symptoms": ["crown holes", "V-cut leaves"], "possible_issue": "Rhinoceros Beetle", "farmer_terms": ["tengu hula", "crown rot"] },
+  { "crop": "banana", "symptoms": ["yellow wilted leaves"], "possible_issue": "Panama Wilt", "farmer_terms": ["bale wilt", "banana yellow"] },
+  { "crop": "mango", "symptoms": ["sticky leaves", "black soot"], "possible_issue": "Mango Hopper", "farmer_terms": ["mavu jenu", "sticky mango"] },
+  { "crop": "cowpea", "symptoms": ["black insects", "leaf curl"], "possible_issue": "Aphids", "farmer_terms": ["hesaru hula", "black bugs"] },
+  { "crop": "rice", "symptoms": ["rusty spots", "brown leaf"], "possible_issue": "Zinc deficiency", "farmer_terms": ["sunnu korate", "brown rice"] },
+  { "crop": "sugarcane", "symptoms": ["white foam on cane"], "possible_issue": "Woolly Aphid", "farmer_terms": ["bilia hula", "foam insect"] },
+  { "crop": "tomato", "symptoms": ["blossom end rot", "black fruit bottom"], "possible_issue": "Calcium deficiency", "farmer_terms": ["tomato rot", "fruit hole"] },
+  { "crop": "rice", "symptoms": ["silver shoot", "onion leaf"], "possible_issue": "Gall Midge", "farmer_terms": ["ulligaddi roga", "onion leaf rice"] },
+  { "crop": "ragi", "symptoms": ["dirty webbed ears"], "possible_issue": "Earhead caterpillar", "farmer_terms": ["tene hula", "ragi worm"] }
+]

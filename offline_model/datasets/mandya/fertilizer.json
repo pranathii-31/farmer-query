@@ -1,0 +1,17 @@
+[
+  { "crop": "rice", "stage": "basal", "fertilizer": "NPK", "dosage": "50:25:25 kg/acre", "method": "apply during puddling" },
+  { "crop": "rice", "stage": "tillering", "fertilizer": "Urea", "dosage": "25kg/acre", "method": "top dress after weeding" },
+  { "crop": "sugarcane", "stage": "90_days", "fertilizer": "Urea+MOP", "dosage": "50kg+25kg/acre", "method": "earth-up after application" },
+  { "crop": "ragi", "stage": "sowing", "fertilizer": "NPK", "dosage": "40:20:20 kg/ha", "method": "apply in furrows" },
+  { "crop": "tomato", "stage": "fruiting", "fertilizer": "Potash", "dosage": "20kg/acre", "method": "apply near root zone" },
+  { "crop": "banana", "stage": "vegetative", "fertilizer": "NPK", "dosage": "200:100:300 g/plant", "method": "split into 4 doses" },
+  { "crop": "maize", "stage": "knee_high", "fertilizer": "Urea", "dosage": "30kg/acre", "method": "side dressing" },
+  { "crop": "coconut", "stage": "pre_monsoon", "fertilizer": "NPK", "dosage": "1kg:1.5kg:2kg per tree", "method": "ring application" },
+  { "crop": "groundnut", "stage": "flowering", "fertilizer": "Gypsum", "dosage": "200kg/acre", "method": "soil application" },
+  { "crop": "mango", "stage": "post_harvest", "fertilizer": "FYM", "dosage": "50kg/tree", "method": "basin application" },
+  { "crop": "chilli", "stage": "transplant", "fertilizer": "NPK", "dosage": "60:40:40 kg/ha", "method": "basal dose" },
+  { "crop": "mulberry", "stage": "pruning", "fertilizer": "NPK", "dosage": "300:120:120 kg/ha", "method": "broadcast" },
+  { "crop": "sunflower", "stage": "button_stage", "fertilizer": "Borax", "dosage": "2kg/acre", "method": "soil drenching" },
+  { "crop": "rice", "stage": "panicle_initiation", "fertilizer": "Potash", "dosage": "20kg/acre", "method": "top dressing" },
+  { "crop": "ragi", "stage": "30_days", "fertilizer": "Nitrogen", "dosage": "20kg/ha", "method": "top dress after rain" }
+]

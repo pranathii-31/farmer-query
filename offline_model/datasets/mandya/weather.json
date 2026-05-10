@@ -1,0 +1,17 @@
+[
+  { "season": "monsoon", "condition": "heavy rain", "affected_crops": ["rice", "tomato"], "advisory": "Clear drainage. Stop fertilizer sprays." },
+  { "season": "summer", "condition": "drought", "affected_crops": ["sugarcane", "banana"], "advisory": "Apply trash mulch. Irrigate at night." },
+  { "season": "monsoon", "condition": "high humidity", "affected_crops": ["rice", "ragi"], "advisory": "Scout for fungal blast. Reduce Nitrogen." },
+  { "season": "rabi", "condition": "cold wave", "affected_crops": ["tomato", "chilli"], "advisory": "Light irrigation to maintain soil temp." },
+  { "season": "summer", "condition": "canal closure", "affected_crops": ["rice"], "advisory": "Switch to short-duration pulses." },
+  { "season": "monsoon", "condition": "cyclone/wind", "affected_crops": ["banana", "maize"], "advisory": "Provide propping/support for plants." },
+  { "season": "monsoon", "condition": "flood", "affected_crops": ["low-lying rice"], "advisory": "Drain water immediately after flood recedes." },
+  { "season": "summer", "condition": "heat wave", "affected_crops": ["poultry", "vegetables"], "advisory": "Provide cool water and roof shading." },
+  { "season": "rabi", "condition": "foggy mornings", "affected_crops": ["potato", "tomato"], "advisory": "Watch for Early Blight. Use Mancozeb." },
+  { "season": "monsoon", "condition": "intermittent rain", "affected_crops": ["groundnut"], "advisory": "Watch for leaf spot (Tikka) disease." },
+  { "season": "summer", "condition": "borewell drying", "affected_crops": ["arecanut"], "advisory": "Implement drip irrigation systems." },
+  { "season": "monsoon", "condition": "lightning", "affected_crops": ["livestock"], "advisory": "Keep animals away from trees and metal." },
+  { "season": "kharif", "condition": "delayed monsoon", "affected_crops": ["rice"], "advisory": "Use short duration varieties like MTU-1010." },
+  { "season": "annual", "condition": "hailstorm", "affected_crops": ["fruit crops"], "advisory": "Prune damaged branches and spray fungicide." },
+  { "season": "rabi", "condition": "low night temp", "affected_crops": ["mango"], "advisory": "Light smudging (smoke) to prevent frost." }
+]
