@@ -1,0 +1,28 @@
+# Example environment variables for Farmer Query Engine
+# Copy to .env and fill in actual values as needed
+
+# Flask
+FLASK_ENV=development
+
+# Database
+DATABASE_URL=sqlite:///backend/database/farmer.db
+
+# External APIs
+# Plant Disease Detection (Optional - Plant.id API key)
+# If not provided, falls back to Hugging Face (FREE, rate limited)
+PLANT_ID_API_KEY=
+
+# Fallback: Hugging Face Inference (FREE, rate limited)
+HUGGINGFACE_ENABLED=true
+HUGGINGFACE_MODEL_ID=nateraw/vit-base-beans
+HUGGINGFACE_API_TOKEN=
+
+# Location Service: Nominatim (OpenStreetMap) - FREE, no key needed
+NOMINATIM_USER_AGENT=farmer-query-engine
+
+# Optional: Google Places API (premium, but falls back to local DB if no key)
+GOOGLE_PLACES_API_KEY=
+
+# Optional: External Agricultural APIs for dynamic data
+AGRICULTURE_API_KEY=  # For crop health tips and disease advice
+GOVERNMENT_API_KEY=    # For government schemes (yojna)

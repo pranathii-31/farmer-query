@@ -1,0 +1,60 @@
+# ──────────────────────────────────────────────
+#  Root .gitignore — covers backend + frontend
+# ──────────────────────────────────────────────
+
+# ── Python / Flask backend ──────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables — NEVER commit secrets
+farmer_query_engine/.env
+
+# Database files (generated at runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files (generated at runtime)
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints
+
+# ── Flutter / Dart frontend ──────────────────────
+# Build output
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+# pub cache symlinks
+frontend/.pub-cache/
+frontend/.pub/
+# iOS / macOS CocoaPods (if added later)
+frontend/ios/Pods/
+frontend/macos/Pods/
+# Android generated files
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/key.properties
+# Web (generated)
+frontend/web/
