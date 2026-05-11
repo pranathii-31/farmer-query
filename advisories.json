@@ -1,0 +1,37 @@
+[
+  {
+    "crop": "Rice",
+    "symptom": "yellow leaf",
+    "cause": "Nitrogen deficiency or Tungro virus",
+    "solution": "Apply Urea fertilizer or use insecticide for leafhoppers",
+    "prevention": "Proper soil testing and balanced fertilization"
+  },
+  {
+    "crop": "Sugarcane",
+    "symptom": "low market price or economic loss",
+    "cause": "Market fluctuations or surplus production",
+    "solution": "Contact local Mandi or cooperative societies for Fair and Remunerative Price (FRP)",
+    "prevention": "Crop diversification or direct contract farming"
+  },
+  {
+    "crop": "Ragi",
+    "symptom": "blast disease in sunny hot summer weather",
+    "cause": "Fungal infection (Magnaporthe grisea) aggravated by heat",
+    "solution": "Spray Carbendazim or Mancozeb; ensure frequent light irrigation",
+    "prevention": "Use blast-resistant varieties like GPU-28 or MR-1"
+  },
+  {
+    "crop": "Areca nut",
+    "symptom": "fruit rot",
+    "cause": "Heavy monsoon and fungal growth (Phytophthora)",
+    "solution": "Bordeaux mixture spray (1%) on the bunches",
+    "prevention": "Ensure proper drainage and clean the garden before monsoon"
+  },
+  {
+    "crop": "Coffee",
+    "symptom": "white stem borer",
+    "cause": "Xylotrechus quadripes attack",
+    "solution": "Tracing and removing infested plants; apply lime wash",
+    "prevention": "Maintain shade and regular monitoring during flight periods"
+  }
+]
