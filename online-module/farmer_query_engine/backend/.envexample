@@ -15,7 +15,7 @@ PLANT_ID_API_KEY=
 # Fallback: Hugging Face Inference (FREE, rate limited)
 HUGGINGFACE_ENABLED=true
 HUGGINGFACE_MODEL_ID=nateraw/vit-base-beans
-HUGGINGFACE_API_TOKEN=
+HUGGINGFACE_API_TOKEN=your_token_here
 
 # Location Service: Nominatim (OpenStreetMap) - FREE, no key needed
 NOMINATIM_USER_AGENT=farmer-query-engine
