@@ -12,10 +12,11 @@ DATABASE_URL=sqlite:///backend/database/farmer.db
 # If not provided, falls back to Hugging Face (FREE, rate limited)
 PLANT_ID_API_KEY=
 
-# Fallback: Hugging Face Inference (FREE, rate limited)
+# Fallback: Hugging Face Inference (serverless)
 HUGGINGFACE_ENABLED=true
 HUGGINGFACE_MODEL_ID=nateraw/vit-base-beans
-HUGGINGFACE_API_TOKEN=your_token_here
+# Token should have "Inference Providers" permission. Leave empty for anonymous (rate-limited).
+HUGGINGFACE_API_TOKEN=
 
 # Location Service: Nominatim (OpenStreetMap) - FREE, no key needed
 NOMINATIM_USER_AGENT=farmer-query-engine

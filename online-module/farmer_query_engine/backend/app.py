@@ -12,6 +12,7 @@ from routes.recommendation import recommendation_bp
 
 def create_app():
     app = Flask(__name__)
+
     CORS(
         app,
         resources={r"/*": {"origins": "*"}},
@@ -19,6 +20,13 @@ def create_app():
         methods=["GET", "POST", "OPTIONS"],
         supports_credentials=False,
     )
+
+    # Home route
+    @app.route("/")
+    def home():
+        return {
+            "message": "Farmer Query Engine API Running"
+        }
 
     # Register blueprints
     app.register_blueprint(disease_bp)
