@@ -1,9 +1,9 @@
 from flask import Flask
 from flask_cors import CORS
 from dotenv import load_dotenv
-
+import os
 load_dotenv()
-
+from database.init_db import init_db
 from routes.disease import disease_bp
 from routes.yojna import yojna_bp
 from routes.health import health_bp
@@ -12,7 +12,7 @@ from routes.recommendation import recommendation_bp
 
 def create_app():
     app = Flask(__name__)
-
+    init_db()
     CORS(
         app,
         resources={r"/*": {"origins": "*"}},
@@ -39,4 +39,5 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
