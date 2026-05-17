@@ -1,28 +1,36 @@
-# Example environment variables for Farmer Query Engine
-# Copy to .env and fill in actual values as needed
+# Example environment variables for KrishiMitra — AI Farming Assistant
+# Copy this file to .env and fill in actual values as needed
 
-# Flask
+# ── Flask ──────────────────────────────────────────────────────────────────────
 FLASK_ENV=development
 
-# Database
+# ── Database ──────────────────────────────────────────────────────────────────
 DATABASE_URL=sqlite:///backend/database/farmer.db
 
-# External APIs
-# Plant Disease Detection (Optional - Plant.id API key)
-# If not provided, falls back to Hugging Face (FREE, rate limited)
+# ── AI / LLM ──────────────────────────────────────────────────────────────────
+# Google Gemini API (Recommended — free tier available)
+# Get your key at: https://aistudio.google.com/app/apikey
+GEMINI_API_KEY=
+
+# ── Crop Disease Detection ─────────────────────────────────────────────────────
+# Plant.id API (Optional — premium, best accuracy)
+# Get key at: https://plant.id
 PLANT_ID_API_KEY=
 
-# Fallback: Hugging Face Inference (FREE, rate limited)
+# Hugging Face Inference (FREE fallback — rate limited)
 HUGGINGFACE_ENABLED=true
 HUGGINGFACE_MODEL_ID=nateraw/vit-base-beans
 HUGGINGFACE_API_TOKEN=
 
-# Location Service: Nominatim (OpenStreetMap) - FREE, no key needed
-NOMINATIM_USER_AGENT=farmer-query-engine
+# ── Weather ────────────────────────────────────────────────────────────────────
+# OpenWeatherMap (Optional — free tier gives 1000 calls/day)
+# Get key at: https://openweathermap.org/api
+# Falls back to Open-Meteo (completely FREE) if not provided
+OPENWEATHER_API_KEY=
 
-# Optional: Google Places API (premium, but falls back to local DB if no key)
+# ── Location Services ─────────────────────────────────────────────────────────
+# Nominatim (OpenStreetMap) — FREE, no key needed
+NOMINATIM_USER_AGENT=krishimitra-app
+
+# Optional: Google Places API (premium — falls back to local SQLite DB)
 GOOGLE_PLACES_API_KEY=
-
-# Optional: External Agricultural APIs for dynamic data
-AGRICULTURE_API_KEY=  # For crop health tips and disease advice
-GOVERNMENT_API_KEY=    # For government schemes (yojna)

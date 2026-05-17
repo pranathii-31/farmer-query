@@ -9,6 +9,7 @@ from routes.yojna import yojna_bp
 from routes.health import health_bp
 from routes.centers import centers_bp
 from routes.recommendation import recommendation_bp
+from routes.assistant import assistant_bp          # ← unified AI assistant
 
 def create_app():
     app = Flask(__name__)
@@ -26,6 +27,7 @@ def create_app():
     app.register_blueprint(health_bp)
     app.register_blueprint(centers_bp)
     app.register_blueprint(recommendation_bp)
+    app.register_blueprint(assistant_bp)           # ← register unified assistant
 
     return app
 
