@@ -1,7 +1,8 @@
 name: farmer_query_frontend
-description: A Flutter frontend to call the Farmer Query Engine backend.
+description: KrishiMitra -- AI-powered smart farming assistant.
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.0.0+1
+
 environment:
   sdk: '>=2.17.0 <4.0.0'
 
@@ -12,7 +13,7 @@ dependencies:
   http_parser: ^4.0.2
   image_picker: ^0.8.7+5
   geolocator: ^9.0.2
-  url_launcher: ^6.2.5    # open yojna links in browser / app
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:
